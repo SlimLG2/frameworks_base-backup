@@ -3286,6 +3286,12 @@ public final class Settings {
         public static final String DIM_NAV_BUTTONS_ALPHA = "dim_nav_buttons_alpha";
 
         /**
+         * Enable double tap gesture anywhere on the lock screen put device to sleep
+         * @hide
+         */
+        public static final String DOUBLE_TAP_SLEEP_ANYWHERE = "double_tap_sleep_anywhere";
+
+        /**
          * Whether to animate the nav button dimming
          * @hide
          */
