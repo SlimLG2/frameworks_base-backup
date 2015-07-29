@@ -1169,8 +1169,9 @@ public abstract class BaseStatusBar extends SystemUI implements
     @Override
     public void showSearchPanel() {
         if (mSearchPanelView != null && mSearchPanelViewEnabled) {
-        if (mSearchPanelView != null) {
-            mSearchPanelView.show(true, true);
+            if (mSearchPanelView != null) {
+                mSearchPanelView.show(true, true);
+            }
         }
     }
 
